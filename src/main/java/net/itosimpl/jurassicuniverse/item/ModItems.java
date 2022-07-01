@@ -36,6 +36,9 @@ public class ModItems {
     public static final RegistryObject<Item> UNUSABLE_DNA_TEST_TUBE = ITEMS.register("unusable_dna_test_tube",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> TRACKING_CHIP = ITEMS.register("tracking_chip",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
