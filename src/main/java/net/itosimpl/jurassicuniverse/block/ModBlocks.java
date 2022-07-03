@@ -28,6 +28,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.JURASSI_BLOCKS);
 
+    public static final RegistryObject<Block> FOSSIL = registerBlock("fossil",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.JURASSI_BLOCKS);
+
+    public static final RegistryObject<Block> DEEPSLATE_FOSSIL = registerBlock("deepslate_fossil",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.JURASSI_BLOCKS);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

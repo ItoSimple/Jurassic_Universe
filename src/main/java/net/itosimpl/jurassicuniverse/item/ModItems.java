@@ -39,6 +39,9 @@ public class ModItems {
     public static final RegistryObject<Item> TRACKING_CHIP = ITEMS.register("tracking_chip",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.JURASSIC_ITEMS)));
 
+    public static final RegistryObject<Item> UNIDENTIFIED_FOSSIL = ITEMS.register("unidentified_fossil",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.JURASSIC_ITEMS)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -8,9 +8,12 @@
   "item.jurassicuniverse.monitor": "Monitor",
   "item.jurassicuniverse.unusable_dna_test_tube": "Unusable DNA Filled Test Tube",
   "item.jurassicuniverse.tracking_chip": "Tracking Chip",
+  "item.jurassicuniverse.unidentified_fossil": "Unidentified Fossil",
 
   "block.jurassicuniverse.amber_ore": "Amber Ore",
   "block.jurassicuniverse.deepslate_amber_ore": "Deepslate Amber Ore",
+  "block.jurassicuniverse.deepslate_fossil": "Deepslate Fossil",
+  "block.jurassicuniverse.fossil": "Fossil",
 
   "itemGroup.jurassicitems": "Jurassic Items",
   "itemGroup.jurassicblocks": "Jurassic Blocks"
