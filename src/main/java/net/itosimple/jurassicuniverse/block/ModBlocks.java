@@ -1,12 +1,14 @@
-package net.itosimpl.jurassicuniverse.block;
+package net.itosimple.jurassicuniverse.block;
 
-import net.itosimpl.jurassicuniverse.JurassicUniverse;
-import net.itosimpl.jurassicuniverse.item.ModCreativeModeTab;
-import net.itosimpl.jurassicuniverse.item.ModItems;
+import net.itosimple.jurassicuniverse.JurassicUniverse;
+import net.itosimple.jurassicuniverse.block.custom.FossilCleanerBlock;
+import net.itosimple.jurassicuniverse.item.ModCreativeModeTab;
+import net.itosimple.jurassicuniverse.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,6 +37,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_FOSSIL = registerBlock("deepslate_fossil",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.JURASSI_BLOCKS);
+
+    public static final RegistryObject<Block> FOSSIL_CLEANER = registerBlock("fossil_cleaner",
+            () -> new FossilCleanerBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()),
+            ModCreativeModeTab.JURASSIC_MACHINES);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

@@ -15,7 +15,10 @@
   "block.jurassicuniverse.deepslate_fossil": "Deepslate Fossil",
   "block.jurassicuniverse.fossil": "Fossil",
 
+  "block.jurassicuniverse.fossil_cleaner": "Fossil Cleaner",
+
   "itemGroup.jurassicitems": "Jurassic Items",
-  "itemGroup.jurassicblocks": "Jurassic Blocks"
+  "itemGroup.jurassicblocks": "Jurassic Blocks",
+  "itemGroup.jurassicmachines": "Jurassic Machines"
 
 }

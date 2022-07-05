@@ -1,6 +1,6 @@
-package net.itosimpl.jurassicuniverse.item;
+package net.itosimple.jurassicuniverse.item;
 
-import net.itosimpl.jurassicuniverse.block.ModBlocks;
+import net.itosimple.jurassicuniverse.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
@@ -15,6 +15,12 @@ public class ModCreativeModeTab {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModBlocks.AMBER_ORE.get());
+        }
+    };
+    public static final CreativeModeTab JURASSIC_MACHINES = new CreativeModeTab("jurassicmachines") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModBlocks.FOSSIL_CLEANER.get());
         }
     };
 }

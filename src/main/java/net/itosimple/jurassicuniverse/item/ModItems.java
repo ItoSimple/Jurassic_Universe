@@ -1,7 +1,6 @@
-package net.itosimpl.jurassicuniverse.item;
+package net.itosimple.jurassicuniverse.item;
 
-import net.itosimpl.jurassicuniverse.JurassicUniverse;
-import net.minecraft.world.item.CreativeModeTab;
+import net.itosimple.jurassicuniverse.JurassicUniverse;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

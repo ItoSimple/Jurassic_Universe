@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=west": { "model": "jurassicuniverse:block/fossil_cleaner"},
+    "facing=north": { "model": "jurassicuniverse:block/fossil_cleaner", "y": 90 },
+    "facing=east": { "model": "jurassicuniverse:block/fossil_cleaner", "y": 180 },
+    "facing=south": { "model": "jurassicuniverse:block/fossil_cleaner", "y": 270 }
+  }
+}
